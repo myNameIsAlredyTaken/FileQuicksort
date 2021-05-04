@@ -135,7 +135,7 @@ int main()
     chrono::duration<double> elapsed_a = end - start;
     writeResult(filename, arr, size);
 
-    cout << "Time elapsed: " << elapsed_a.count() + elapsed_b.count() + elapsed_c.count() + elapsed_d.count();
+    cout << "Sort done in: " << elapsed_a.count() + elapsed_b.count() + elapsed_c.count() + elapsed_d.count() << " seconds";
 
     return 0;
 }
